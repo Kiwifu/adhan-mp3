@@ -1,20 +1,14 @@
 # Adhan MP3 Collection — أذان | Islamic Call to Prayer Audio Files
 
-A curated collection of **200+ high-quality Adhan (Azan / Athan / أذان) MP3 recordings** from renowned muezzins and iconic mosques around the world. Free to use in Islamic apps, prayer-time software, websites, and personal projects.
+A curated collection of **224 high-quality Adhan (Azan / Athan / أذان) MP3 recordings** from renowned muezzins and iconic mosques around the world.
 
 ---
 
-## What Is Adhan?
-
-**Adhan** (also spelled *Azan* or *Athan* — Arabic: أَذَان) is the Islamic call to prayer, announced five times daily to invite Muslims to worship. Each recording in this collection captures the full call as performed by a distinct muezzin (مُؤَذِّن) or at a specific mosque, preserving regional styles and melodic traditions from across the Muslim world.
-
----
-
-## Collection Highlights
+## Collection Overview
 
 | Stat | Value |
 | --- | --- |
-| Total recordings | **200+** |
+| Total recordings | **224** |
 | Named muezzins | **150+** |
 | Countries & regions | **25+** |
 | Special Fajr recordings | **15+** |
@@ -46,6 +40,12 @@ A curated collection of **200+ high-quality Adhan (Azan / Athan / أذان) MP3 
 | Ahmd At-Trablsy | أحمد الطرابلسي | Kuwait / North Africa |
 | Abdul Rahman Al Arake | عبدالرحمن العراقي | Iraq |
 | Abd Alrazaq Saleh | عبد الرزاق صالح | Lebanon |
+| Abdul Majid Al Surehi | عبدالمجيد السريحي | Saudi Arabia |
+| Mahmoud Hijazi | محمود حجازي | Egypt |
+| Majid Al Zamel | ماجد الزامل | Saudi Arabia |
+| Taha Al Junayd | طه الجنيد | Saudi Arabia |
+| Yasser Al Filkawi | ياسر الفيلكاوي | Kuwait |
+| Wadi Al Yamani | وديع اليمني | Yemen |
 
 ---
 
@@ -62,7 +62,6 @@ A curated collection of **200+ high-quality Adhan (Azan / Athan / أذان) MP3 
 | Adhan Dubai UAE | أذان دبي الإمارات | Dubai, UAE |
 | Adhan Ajman UAE | أذان عجمان الإمارات | Ajman, UAE |
 | Adhan Kuwait | أذان الكويت | Kuwait |
-| Adhan Fajr Kuwait | أذان الفجر الكويت | Kuwait |
 | Adhan Turkey | أذان تركيا | Turkey |
 | Adhan Malaysia | أذان ماليزيا | Malaysia |
 | Adhan Indonesia | أذان إندونيسيا | Indonesia |
@@ -81,52 +80,27 @@ A curated collection of **200+ high-quality Adhan (Azan / Athan / أذان) MP3 
 
 ## File Naming Convention
 
-All files follow a consistent bilingual naming format:
+All files follow a consistent bilingual naming format with underscores:
 
 ```text
-English Name (الاسم العربي).mp3
+English_Name_(الاسم_العربي).mp3
 ```
 
 Example:
 
 ```text
-Mishary Rashid Alafasy 1 - Kuwait (مشاري راشد العفاسي - الكويت).mp3
-Adhan Fajr Al Haram Al Maki (أذان الفجر الحرم المكي).mp3
+Mishary_Rashid_Alafasy_1_-_Kuwait_(مشاري_راشد_العفاسي_-_الكويت).mp3
+Adhan_Fajr_Al_Haram_Al_Maki_(أذان_الفجر_الحرم_المكي).mp3
 ```
 
-Multiple recordings by the same muezzin are numbered (1, 2, 3, …). Fajr-specific recordings are labeled `- Fajr`.
-
----
-
-## Download All Files
-
-Use the included Python script to download all recordings automatically:
-
-```bash
-python download_adhan.py
-```
-
-The script downloads files concurrently (8 threads) and skips files that already exist.
-
----
-
-## Use Cases
-
-- **Prayer time apps** — play the adhan at the correct salah times
-- **Islamic websites & web apps** — embed authentic call-to-prayer audio
-- **Quran / Islamic learning platforms** — provide regional adhan styles
-- **Masjid / mosque management software** — broadcast the adhan over speakers
-- **Personal ringtones & notifications** — set your phone's prayer alarm
-- **Research & archiving** — preserve regional muezzin traditions
+Multiple recordings by the same muezzin are numbered (1, 2, 3, …). Fajr-specific recordings are labeled `_Fajr`. HQ variants from an alternate source are labeled `_-_HQ`.
 
 ---
 
 ## Regional Styles Covered
 
-This collection captures major Adhan traditions from:
-
 - **Arabian Peninsula** — Saudi Arabia, Kuwait, Qatar, UAE, Oman, Yemen
-- **North Africa** — Egypt, Algeria, Tunisia, Morocco, Libya
+- **North Africa** — Egypt, Algeria, Tunisia, Morocco
 - **Levant** — Palestine (Al-Aqsa), Jordan, Syria, Lebanon
 - **East Africa** — Kenya
 - **Central & South Asia** — Pakistan, India, Afghanistan
@@ -135,13 +109,3 @@ This collection captures major Adhan traditions from:
 - **Western diaspora** — Colombia
 
 ---
-
-## Tags / Keywords
-
-`adhan` `azan` `athan` `أذان` `call to prayer` `Islamic audio` `Muslim prayer` `muezzin` `مؤذن` `mp3` `fajr` `salah` `صلاة` `mosque` `masjid` `مسجد` `Al-Haram` `Mecca` `Medina` `Al-Aqsa` `Jerusalem` `Mishary Alafasy` `Abdulbasit Abdusamad` `Islamic ringtone` `prayer time` `اذان`
-
----
-
-## License
-
-All audio recordings are shared for personal and non-commercial Islamic use. Please respect the original creators and their work.
